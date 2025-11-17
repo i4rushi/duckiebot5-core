@@ -1,1 +1,7 @@
 # LIST YOUR APT PACKAGES HERE
+ros-noetic-cv-bridge
+ros-noetic-image-transport
+python3-opencv
+ros-noetic-image-view
+
+

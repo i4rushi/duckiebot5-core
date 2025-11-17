@@ -1,0 +1,15 @@
+<launch>
+    <node pkg="lane_follower"
+          type="lane_node.py"
+          name="lane_follower_node"
+          output="screen">
+        <param name="veh" value="duckiebot5" />
+    </node>
+
+    <!-- Optional: view debug image from laptop -->
+    <!--
+    <node pkg="image_view" type="image_view" name="debug_view">
+        <remap from="image" to="/duckiebot5/debug_image" />
+    </node>
+    -->
+</launch>
